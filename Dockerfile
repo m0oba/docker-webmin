@@ -1,4 +1,4 @@
-FROM debian:stretch
+FROM balenalib/rpi-raspbian
 MAINTAINER moo ba <m00ba@protonmail.com>
 EXPOSE 10000
 WORKDIR /
