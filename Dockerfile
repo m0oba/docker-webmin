@@ -5,7 +5,8 @@ WORKDIR /
 
 
 # Update image apt repos and install requirements
-RUN apt-get update && apt-get upgrade -y
+RUN apt-get update -y
+RUN apt-get upgrade -y
 RUN apt-get install apt-transport-https wget gnupg2 net-tools cron apt-utils -y
 
 RUN echo "Creating /data/webmin" && mkdir /data/webmin -p
