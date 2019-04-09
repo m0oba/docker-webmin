@@ -1,5 +1,5 @@
-FROM debian:jessie
-MAINTAINER Sita Liu <chsliu+docker@gmail>
+FROM debian:stretch
+MAINTAINER moo ba <m00ba@protonmail.com>
 
 
 RUN echo root:pass | chpasswd && \
