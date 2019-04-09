@@ -1,4 +1,4 @@
-FROM balenalib/rpi-raspbian
+FROM arm32v6/alpine:3.7
 MAINTAINER moo ba <m00ba@protonmail.com>
 EXPOSE 10000
 WORKDIR /
